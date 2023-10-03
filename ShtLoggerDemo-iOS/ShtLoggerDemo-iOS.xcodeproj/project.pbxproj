@@ -123,7 +123,7 @@
 			);
 			mainGroup = F8868BF82ACAC64C007F38B7;
 			packageReferences = (
-				F8868C1E2ACC3792007F38B7 /* XCRemoteSwiftPackageReference "ShtLogger" */,
+				F8868C1F2ACC3B00007F38B7 /* XCRemoteSwiftPackageReference "ShtLogger" */,
 			);
 			productRefGroup = F8868C022ACAC64C007F38B7 /* Products */;
 			projectDirPath = "";
@@ -375,7 +375,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F8868C1E2ACC3792007F38B7 /* XCRemoteSwiftPackageReference "ShtLogger" */ = {
+		F8868C1F2ACC3B00007F38B7 /* XCRemoteSwiftPackageReference "ShtLogger" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AlexTikhomirov/ShtLogger.git";
 			requirement = {
