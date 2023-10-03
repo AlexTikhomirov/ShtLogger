@@ -13,6 +13,7 @@
 		F8868C0C2ACAC64C007F38B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8868C0A2ACAC64C007F38B7 /* Main.storyboard */; };
 		F8868C0E2ACAC64D007F38B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8868C0D2ACAC64D007F38B7 /* Assets.xcassets */; };
 		F8868C112ACAC64D007F38B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8868C0F2ACAC64D007F38B7 /* LaunchScreen.storyboard */; };
+		F8868C1A2ACC33A9007F38B7 /* LoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8868C192ACC33A9007F38B7 /* LoggerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F8868C0D2ACAC64D007F38B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8868C102ACAC64D007F38B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8868C122ACAC64D007F38B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8868C192ACC33A9007F38B7 /* LoggerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F8868C032ACAC64C007F38B7 /* ShtLoggerDemo-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F8868C182ACC33A9007F38B7 /* Logger */,
 				F8868C042ACAC64C007F38B7 /* AppDelegate.swift */,
 				F8868C062ACAC64C007F38B7 /* SceneDelegate.swift */,
 				F8868C082ACAC64C007F38B7 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				F8868C122ACAC64D007F38B7 /* Info.plist */,
 			);
 			path = "ShtLoggerDemo-iOS";
+			sourceTree = "<group>";
+		};
+		F8868C182ACC33A9007F38B7 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				F8868C192ACC33A9007F38B7 /* LoggerManager.swift */,
+			);
+			path = Logger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +122,8 @@
 				Base,
 			);
 			mainGroup = F8868BF82ACAC64C007F38B7;
+			packageReferences = (
+			);
 			productRefGroup = F8868C022ACAC64C007F38B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8868C092ACAC64C007F38B7 /* ViewController.swift in Sources */,
+				F8868C1A2ACC33A9007F38B7 /* LoggerManager.swift in Sources */,
 				F8868C052ACAC64C007F38B7 /* AppDelegate.swift in Sources */,
 				F8868C072ACAC64C007F38B7 /* SceneDelegate.swift in Sources */,
 			);
