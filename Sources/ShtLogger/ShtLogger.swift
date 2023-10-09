@@ -2,9 +2,9 @@ import UIKit
 import MessageUI
 
 class ShtLogger: NSObject {
-    private override init() { }
+//    private override init() { }
     
-    public static let shared = ShtLogger()
+//    public static let shared = ShtLogger()
     public var logFileName = "Log program"
     public var isNotSave = false
     public var emails = [String]()

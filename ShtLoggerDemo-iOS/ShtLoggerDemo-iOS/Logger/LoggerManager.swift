@@ -1,7 +1,7 @@
 import Foundation
 import ShtLogger
 
-let logger = ShtLogger.shared
+let logger = ShtLogger()
 
 struct LoggerManager {
     func setDefault() {
