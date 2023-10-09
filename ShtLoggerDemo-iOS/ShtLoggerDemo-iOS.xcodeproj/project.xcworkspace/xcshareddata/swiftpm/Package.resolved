@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "shtlogger",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AlexTikhomirov/ShtLogger.git",
+      "state" : {
+        "revision" : "2da736c823a2965aa30230dc148f0b7e5935e976",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,7 +1,7 @@
 import UIKit
 import MessageUI
 
-class ShtLogger: NSObject {
+public class ShtLogger: NSObject {
     private override init() { }
     
     public static let shared = ShtLogger()
