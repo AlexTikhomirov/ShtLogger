@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AlexTikhomirov/ShtLogger.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "ecfe0657a870e0a18b50b1c1fcd0888e2ea07e06"
+        "revision" : "2da736c823a2965aa30230dc148f0b7e5935e976",
+        "version" : "1.0.1"
       }
     }
   ],
