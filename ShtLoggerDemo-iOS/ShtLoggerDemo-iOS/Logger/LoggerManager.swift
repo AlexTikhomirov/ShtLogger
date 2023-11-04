@@ -12,5 +12,6 @@ struct LoggerManager {
         logger.dateFormat = "dd.MM.YYYY HH:mm:ss"
         logger.timeFormat = "[HH:mm:ss]"
         logger.countLogFiles = 5
+        logger.uploadLogFiles()
     }
 }
