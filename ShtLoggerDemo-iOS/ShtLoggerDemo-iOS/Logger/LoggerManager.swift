@@ -1,7 +1,7 @@
 import Foundation
 import ShtLogger
 
-let logger = ShtLogger()
+let logger = ShtLogger.shared
 
 struct LoggerManager {
     func setDefault() {
@@ -12,5 +12,6 @@ struct LoggerManager {
         logger.dateFormat = "dd.MM.YYYY HH:mm:ss"
         logger.timeFormat = "[HH:mm:ss]"
         logger.countLogFiles = 5
+        logger.uploadLogFiles()
     }
 }

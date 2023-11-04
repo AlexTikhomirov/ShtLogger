@@ -164,6 +164,19 @@ public class ShtLogger: NSObject {
                 }
                 let vc = topMostViewController()
                 vc?.present(mail, animated: true, completion: nil)
+            }  else {
+                var recipients = "mailto:"
+                if !emails.isEmpty { recipients += emails[0] }
+                recipients += "?cc="
+                if emails.count > 1 { recipients += emails[1] }
+                recipients += "&subject=\(lastFiles[0].lastPathComponent)"
+                let body = "&body=Hello GearEye team!"
+                let email = recipients + body
+                if let urlStr = email.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed), let url = URL(string: urlStr) {
+                    UIApplication.shared.open(url)
+                } else {
+                    showAlert(title: "Error", message: "Log File not found")
+                }
             }
         } else {
             showAlert(title: "Error", message: "Log File not found")

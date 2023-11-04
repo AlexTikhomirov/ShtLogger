@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F815CFD32AF6B99900DB17D8 /* ShtLogger in Frameworks */ = {isa = PBXBuildFile; productRef = F815CFD22AF6B99900DB17D8 /* ShtLogger */; };
 		F8868C052ACAC64C007F38B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8868C042ACAC64C007F38B7 /* AppDelegate.swift */; };
 		F8868C072ACAC64C007F38B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8868C062ACAC64C007F38B7 /* SceneDelegate.swift */; };
 		F8868C092ACAC64C007F38B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8868C082ACAC64C007F38B7 /* ViewController.swift */; };
@@ -14,7 +15,6 @@
 		F8868C0E2ACAC64D007F38B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8868C0D2ACAC64D007F38B7 /* Assets.xcassets */; };
 		F8868C112ACAC64D007F38B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8868C0F2ACAC64D007F38B7 /* LaunchScreen.storyboard */; };
 		F8868C1A2ACC33A9007F38B7 /* LoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8868C192ACC33A9007F38B7 /* LoggerManager.swift */; };
-		F8868C272AD439DB007F38B7 /* ShtLogger in Frameworks */ = {isa = PBXBuildFile; productRef = F8868C262AD439DB007F38B7 /* ShtLogger */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8868C272AD439DB007F38B7 /* ShtLogger in Frameworks */,
+				F815CFD32AF6B99900DB17D8 /* ShtLogger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +97,7 @@
 			);
 			name = "ShtLoggerDemo-iOS";
 			packageProductDependencies = (
-				F8868C262AD439DB007F38B7 /* ShtLogger */,
+				F815CFD22AF6B99900DB17D8 /* ShtLogger */,
 			);
 			productName = "ShtLoggerDemo-iOS";
 			productReference = F8868C012ACAC64C007F38B7 /* ShtLoggerDemo-iOS.app */;
@@ -128,7 +128,7 @@
 			);
 			mainGroup = F8868BF82ACAC64C007F38B7;
 			packageReferences = (
-				F8868C252AD439DB007F38B7 /* XCRemoteSwiftPackageReference "ShtLogger" */,
+				F815CFD12AF6B99900DB17D8 /* XCRemoteSwiftPackageReference "ShtLogger" */,
 			);
 			productRefGroup = F8868C022ACAC64C007F38B7 /* Products */;
 			projectDirPath = "";
@@ -380,7 +380,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F8868C252AD439DB007F38B7 /* XCRemoteSwiftPackageReference "ShtLogger" */ = {
+		F815CFD12AF6B99900DB17D8 /* XCRemoteSwiftPackageReference "ShtLogger" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AlexTikhomirov/ShtLogger.git";
 			requirement = {
@@ -391,9 +391,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F8868C262AD439DB007F38B7 /* ShtLogger */ = {
+		F815CFD22AF6B99900DB17D8 /* ShtLogger */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F8868C252AD439DB007F38B7 /* XCRemoteSwiftPackageReference "ShtLogger" */;
+			package = F815CFD12AF6B99900DB17D8 /* XCRemoteSwiftPackageReference "ShtLogger" */;
 			productName = ShtLogger;
 		};
 /* End XCSwiftPackageProductDependency section */

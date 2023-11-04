@@ -9,7 +9,7 @@ public enum ShtEventCommon {
     case api(ShtAPIEvent)
 }
 
-extension ShtEventCommon: CaseIterable {
+public extension ShtEventCommon: CaseIterable {
     public static var allCases: [ShtEventCommon] {
         var result = [ShtEventCommon]()
         ShtCreateEvent.allCases.forEach { result.append(ShtEventCommon.create($0)) }
@@ -23,7 +23,7 @@ extension ShtEventCommon: CaseIterable {
     
 }
 
-extension ShtEventCommon: ShtEventProtocol {
+public extension ShtEventCommon: ShtEventProtocol {
     public var rawValue: String {
         switch self {
         case .create(let event):        return event.rawValue
